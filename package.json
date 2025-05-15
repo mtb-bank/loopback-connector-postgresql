@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-postgresql",
+  "name": "@mtb-bank/loopback-connector-postgresql-join",
   "version": "5.5.1",
   "description": "Loopback PostgreSQL Connector",
   "engines": {
@@ -50,7 +50,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/loopbackio/loopback-connector-postgresql.git"
+    "url": "git+https://github.com/mtb-bank/loopback-connector-postgresql.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mtb-bank"
   },
   "license": "Artistic-2.0",
   "author": "IBM Corp."
